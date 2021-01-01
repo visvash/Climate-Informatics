@@ -7,9 +7,9 @@ Machine Learning development focused on Geospatial Data
 - Preprocessing  
 - Deep Learning  
 
-## Procuring and Reading Geospatial Data
+# Procuring and Reading Geospatial Data
 We are obtaining the data from the Copernicus Data Store <a href="https://cds.climate.copernicus.eu/cdsapp#!/home">(CDS)</a>.  
-First and foremost, we need to install CDS API that helps to programmatically access to this data store.  
+First and foremost, we need to install CDS API that helps to programmatically access to this data store.
 #### Steps to install CDS API (Command Prompt)
 - Create a CDS account by registering on the <a href="https://cds.climate.copernicus.eu/cdsapp#!/home">website</a>, and verify your email address provided.  
 - Go to this <a href="https://cds.climate.copernicus.eu/api-how-to">page</a> and copy the 2 line code displayed in the black box in the "Install the CDS API key" section.
@@ -26,3 +26,8 @@ First and foremost, we need to install CDS API that helps to programmatically ac
   pip3 install --user cdsapi #for Python 3
   ```
 #### Steps to install CDS API (Anaconda Users)
+- First four steps same as above method, open the Anaconda Prompt and run below two lines step by step  
+  ```
+  conda config --add channels conda-forge
+  conda install cdsapi
+  ```
