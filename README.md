@@ -1,5 +1,8 @@
-# Climate-Informatics
-Machine Learning development focused on Geospatial Data  
+# Climate-Informatics 
+Hello, I am <a href="https://www.linkedin.com/in/visvash-attri/">Visvash Attri</a>.  
+I am working on a Machine Learning development focused on Geospatial Data. In this repo I am exploring and processing the data by demonstrating it through a Jupyter Notebook.  
+Follow this Readme file for the entire walkthrough of the project.  
+This project has been divided into four parts, or I should say "steps", those are mentioned below:  
 
 ### Steps  
 - Procuring and Reading  
