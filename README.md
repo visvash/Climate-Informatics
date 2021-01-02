@@ -38,4 +38,5 @@ Now that we have installed the CDS API, let's try to obtain the following data f
 1. Temperature of air at 2m above the surface - <b>[2m Temperature - 2019 - December - First 7 days - 12:00 - Whole Available Region - NetCDF]</b> 
 2. Total precipitation - <b>[Total Precipitation - 2019 - December - First 7 days -12:00 - Whole Available Region - NetCDF]</b>  
 3. Volumetric soil water layer 1 - <b>[Volumetric soil water layer 1 - 2019 - December - First 7 days - 12:00 - Whole Available Region - NetCDF]</b>  
+
 Go to <a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=form">this page</a>, select the parameters and download the NetCDF file after accepting the terms & conditions. Rename the file according to your simplicity.
