@@ -5,10 +5,10 @@ Follow this Readme file for the entire walkthrough of the project.
 This project has been divided into four parts, or I should say "steps", those are mentioned below:  
 
 ### Steps  
-- Procuring and Reading  
-- Exploring and Visualizing  
-- Preprocessing  
-- Deep Learning  
+- Procuring and Reading Geospatial Data  
+- Exploring and Visualizing Geospatial Data  
+- Preprocessing Geospatial Data  
+- Deep Learning for Geospatial Data  
 
 # Procuring and Reading Geospatial Data
 We are obtaining the data from the Copernicus Data Store <a href="https://cds.climate.copernicus.eu/cdsapp#!/home">(CDS)</a>.  
@@ -39,4 +39,15 @@ Now that we have installed the CDS API, let's try to obtain the following data f
 2. Total precipitation - <b>[Total Precipitation - 2019 - December - First 7 days -12:00 - Whole Available Region - NetCDF]</b>  
 3. Volumetric soil water layer 1 - <b>[Volumetric soil water layer 1 - 2019 - December - First 7 days - 12:00 - Whole Available Region - NetCDF]</b>  
 
-Go to <a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=form">this page</a>, select the parameters and download the NetCDF file after accepting the terms & conditions. Rename the file according to your simplicity.
+Go to <a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=form">this page</a>, select the parameters and download the NetCDF file after accepting the terms & conditions. Rename the file according to your simplicity.  
+
+To install NetCDF4 in Anaconda, go to Anaconda prompt and run:
+```
+conda install -c anaconda netcdf4
+```
+
+We might use XArray while studying the Datasets, to install it go to Anaconda Prompt and run:
+```
+conda install -c conda-forge xarray dask netCDF4 bottleneck
+```
+
