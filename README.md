@@ -46,8 +46,9 @@ To install NetCDF4 in Anaconda, go to Anaconda prompt and run:
 conda install -c anaconda netcdf4
 ```
 
-We might use XArray while studying the Datasets, to install it go to Anaconda Prompt and run:
+We might use xarray while studying the Datasets, to install it go to Anaconda Prompt and run:
 ```
 conda install -c conda-forge xarray dask netCDF4 bottleneck
 ```
 
+Documentation on xarray can be found <a href="http://xarray.pydata.org/en/stable/">here</a>, for reference.
