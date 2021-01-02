@@ -51,4 +51,7 @@ We might use xarray while studying the Datasets, to install it go to Anaconda Pr
 conda install -c conda-forge xarray dask netCDF4 bottleneck
 ```
 
-Documentation on xarray can be found <a href="http://xarray.pydata.org/en/stable/">here</a>, for reference.
+Documentation on xarray can be found <a href="http://xarray.pydata.org/en/stable/">here</a>, for reference.  
+
+Thanks for reading till here :)  
+> Follow the <a href="https://github.com/visvash/Climate-Informatics/blob/main/Climate%20Informatics%20Project.ipynb">Jupyter notebook</a> for the further part of the project.
